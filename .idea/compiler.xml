@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="lagou_edu_home" target="1.5" />
+      <module name="lagou_edu_home" target="8" />
       <module name="lagou_edu_home2" target="1.5" />
     </bytecodeTargetLevel>
   </component>

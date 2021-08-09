@@ -11,4 +11,11 @@ public interface CourseDao {
     public List<Course> findByCourseNameAndStatus(String courseName, String status);
 
     public int saveCourseSalesInfo(Course course);
+
+    public Course findCourseById(int id);
+
+    public int updateCourseSalesInfo(Course course);
+
+    public int updateCourseStatus(Course course);
+
 }

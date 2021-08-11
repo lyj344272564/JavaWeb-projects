@@ -49,6 +49,8 @@ public class Course_Section  implements Serializable {
     @JSONField(ordinal = 9)
     private int isDel;
 
+    private Course course;
+
     @Override
     public String toString() {
       return "Course_Section{" +

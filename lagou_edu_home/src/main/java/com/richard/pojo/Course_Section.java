@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *  课程章节
@@ -50,6 +52,8 @@ public class Course_Section  implements Serializable {
     private int isDel;
 
     private Course course;
+
+    List<Course_Lesson> lessonList = new ArrayList<>();
 
     @Override
     public String toString() {

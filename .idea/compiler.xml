@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lagou_edu_home" />
-        <module name="lagou_edu_home2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
